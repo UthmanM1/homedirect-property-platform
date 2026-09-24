@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@theme{--color-cream:#f6f3ec;--color-forest:#1f3d2e;--color-sage:#8fa691;--color-mist:#e6ece3;--color-ink:#23262a;--font-serif:Georgia,"Times New Roman",serif}
+body{background:var(--color-cream);color:var(--color-ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+:focus-visible{outline:2px solid var(--color-forest);outline-offset:2px}
+h1,h2,h3{font-family:var(--font-serif);letter-spacing:-0.01em}
+.card{background:#fff;border:1px solid #e3ded2;border-radius:1rem}
+.input{width:100%;border:1px solid #cfc9bb;border-radius:.6rem;padding:.65rem .8rem;background:#fff}
